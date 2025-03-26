@@ -1,0 +1,33 @@
+/* עיצוב כללי של הדף */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* כותרת ראשית */
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+/* כותרת משנית */
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/* תיבת הטיימר */
+.timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d35400;
+    background: #fff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
