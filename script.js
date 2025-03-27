@@ -18,7 +18,7 @@ function updateTimer() {
     const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
 
     // עדכון ה-HTML
-    document.getElementById("timer").innerHTML = `דקות ${minutes} שעות ${hours} ימים ${days}`;
+    document.getElementById("timer").innerHTML = `${days} ימים ${hours} שעות  ${minutes} דקות`;
 }
 
 // הפעלת הטיימר מיד עם טעינת הדף
